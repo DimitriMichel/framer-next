@@ -4,6 +4,13 @@ import ProgressiveImage from 'react-progressive-image';
 import { motion, useTransform, useViewportScroll } from 'framer-motion';
 const transition = { duration: 1.4, ease: [0.6, 0.01, -0.05, 0.9] };
 
+//Animation Variants
+
+const imageDetails = {
+  width: 400,
+  height: 600,
+};
+
 const firstName = {
   initial: {
     y: 0,
